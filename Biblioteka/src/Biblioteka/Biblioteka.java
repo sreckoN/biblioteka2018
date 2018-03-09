@@ -27,7 +27,6 @@ public class Biblioteka implements BibliotekaInterfejs {
 
 	@Override
 	public LinkedList<Knjiga> pronadjiKnjigu(String naslov, Autor autor, String isbn, String izdavac) {
-		//Komentar javni
 		if(naslov == null) throw new RuntimeException("Morate uneti naslov");
 		
 		LinkedList<Knjiga> novaLista = new LinkedList<Knjiga>();
